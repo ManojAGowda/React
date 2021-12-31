@@ -22,7 +22,7 @@ function TodoApp(){
 
     return <div className="Todo">
         <div className="item">
-            <input type="text" value={state} onChange={(event)=>{Todo(event)}}/>
+            <input type="text" value={state} onChange={(event)=>{Todo(event)}}  placeholder="Add your task"/>
             <button onClick={AddToList}>ADD ITEM</button>
         </div>
     <div>
